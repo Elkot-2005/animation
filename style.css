@@ -53,45 +53,45 @@
 }
 .game1{
     background-image: url(images/f1.webp);
-    top:10px;
+    top:20px;
     animation-name: Move1;
     animation-delay: 0s;
 }
 .game2{
     background-image:url(images/f2.avif);
-    top: 200px;
+    top: 190px;
     animation-name: Move1;
     animation-delay: 5s;
 }
 .game3{
     background-image: url(images/f3.webp);
-    top: 350px;
+    top: 360px;
     animation-name: Move2;
     animation-delay: 10s;
 }
 .game4{
     background-image: url(images/f4.jpg);
-    top: 450px;
+    top: 530px;
     animation-name: Move2;
     animation-delay: 15s;
 }
 .game-name1{
-    top:10px;
+    top:20px;
     animation-name: Move3;
     animation-delay: 3s;
 }
 .game-name2{
-    top: 200px;
+    top: 190px;
     animation-name: Move3;
     animation-delay: 8s;
 }
 .game-name3{
-    top: 350px;
+    top: 360px;
     animation-name: Move4;
     animation-delay: 12s;
 }
 .game-name4{
-    top: 450px;
+    top: 530px;
     animation-name: Move4;
     animation-delay: 16s;
 }
