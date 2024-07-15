@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.game-content{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/bac.webp);
+    position: relative;
+    display: block;
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.title {
+    text-align: center;
+    font-size: 100px;
+    padding-top: 264px;
+    text-transform: capitalize;
+    color: #FFFFFF; 
+}
+.game1,.game2,.game3,.game4{
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    margin-left: 50px;
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+.game-name1,.game-name2,.game-name3,.game-name4{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    right: 50px;
+    border: 5px solid rgb(255, 253, 253);
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.3);  
+    color: #FFFFFF; 
+    text-align: center;
+    font-size: 20px;
+    padding-top: 50px;
+    animation-fill-mode: forwards;
+    animation-duration: 3s;
+}
+.game1{
+    background-image: url(images/f1.webp);
+    top: 70px;
+    animation-name: Move1;
+    animation-delay: 0s;
+}
+.game2{
+    background-image:url(images/f2.avif);
+    top: 230px;
+    animation-name: Move1;
+    animation-delay: 5s;
+}
+.game3{
+    background-image: url(images/f3.webp);
+    top: 390px;
+    animation-name: Move2;
+    animation-delay: 10s;
+}
+.game4{
+    background-image: url(images/f4.jpg);
+    top: 550px;
+    animation-name: Move2;
+    animation-delay: 15s;
+}
+.game-name1{
+    top: 70px;
+    animation-name: Move3;
+    animation-delay: 3s;
+}
+.game-name2{
+    top: 230px;
+    animation-name: Move3;
+    animation-delay: 8s;
+}
+.game-name3{
+    top: 390px;
+    animation-name: Move4;
+    animation-delay: 12s;
+}
+.game-name4{
+    top: 550px;
+    animation-name: Move4;
+    animation-delay: 16s;
+}
+@keyframes Move1 {
+    0%{
+     left: 0px;
+    }
+    100%{
+     left: 1400px;
+    }
+ }
+ @keyframes Move2 {
+    0%{
+         left: 0px;
+    }
+    100%{
+          left: 1400px;
+    }
+}
+@keyframes Move3 {
+    0%{
+     right: 50px;
+    }
+    100%{
+     right: 1400px;
+    }
+ }
+ @keyframes Move4{
+    0%{
+         right: 50px;
+    }
+    100%{
+          right: 1400px;
+    }
+}
+
+ 
