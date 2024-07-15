@@ -100,7 +100,7 @@
      left: 0px;
     }
     100%{
-     left: 1000px;
+     left: 1100px;
     }
  }
  @keyframes Move2 {
@@ -108,7 +108,7 @@
          left: 0px;
     }
     100%{
-          left: 1000px;
+          left: 1100px;
     }
 }
 @keyframes Move3 {
@@ -116,7 +116,7 @@
      right: 50px;
     }
     100%{
-     right: 1000px;
+     right: 1100px;
     }
  }
  @keyframes Move4{
@@ -124,7 +124,7 @@
          right: 50px;
     }
     100%{
-          right: 1000px;
+          right: 1100px;
     }
 }
 
