@@ -59,7 +59,7 @@
 }
 .game2{
     background-image:url(images/f2.avif);
-    top: 210px;
+    top: 200px;
     animation-name: Move1;
     animation-delay: 5s;
 }
